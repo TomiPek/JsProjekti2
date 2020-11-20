@@ -1,0 +1,92 @@
+.jumbotron {
+  margin: 35px;
+  padding-top: 20px;
+  background: url("https://cdn.pixabay.com/photo/2020/04/03/19/02/virus-4999857_960_720.png")
+    no-repeat center center;
+  min-height: 350px;
+  max-width: 800px;
+  margin: auto;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body {
+  text-align: center;
+  background: #ecf3f3;
+}
+#wrapper {
+  padding-top: 30px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+th {
+  font-size: 20px;
+}
+table {
+  min-width: 900px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4c9baf;
+  color: rgb(219, 208, 208);
+  border-bottom: solid;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.box {
+  width: 35%;
+  height: 200px;
+  border: thin black solid;
+  display: inline-block;
+}
+button {
+  margin-bottom: 15px;
+}
+
+#eka {
+  text-align: center;
+  color: reD;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #29323c;
+  background-image: url("https://icons.iconarchive.com/icons/everaldo/crystal-clear/128/App-virus-detected-2-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#toka {
+  text-align: center;
+  color: reD;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #29323c;
+  background-image: url("https://icons.iconarchive.com/icons/hopstarter/button/128/Button-Add-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#kolmas {
+  text-align: center;
+  color: reD;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #29323c;
+  background-image: url("https://icons.iconarchive.com/icons/bad-blood/yolks/128/sick-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#neljas {
+  text-align: center;
+  color: reD;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #29323c;
+  background-image: url("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/128/Tomb-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
