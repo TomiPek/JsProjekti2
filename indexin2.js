@@ -13,7 +13,7 @@ function total() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
       jsonObj = JSON.parse(xmlhttp.responseText);
 
-      // partitun tiedon sijainti
+      // parsitun tiedon sijainti
       document.getElementById("eka").innerHTML =
  
       // Haetaan kaikkien tautitapauksien tiedon sijainti.
