@@ -71,6 +71,7 @@ function countrySearch() {
   document.getElementById("kolmas").innerHTML = "Active:" + aktiiviset;
   document.getElementById("neljas").innerHTML = "Deaths:" + kuolleet;
 
+  // world covid situtation selitekstin piiloitus kun tätä funktiota
   var hide = document.getElementById("cr");
   if (hide.style.display === "none") {
     hide.style.display = "block";
