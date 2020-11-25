@@ -65,13 +65,22 @@ function countrySearch() {
   aktiiviset +=data[i].Active;
 
   // Lisätään tieto laatikoihin
+  document.getElementById("country").innerHTML = "<h3>" + "Country statistics of: " + "</h3>" + "<h3>" + maa + "</h3>";
   document.getElementById("eka").innerHTML = "Total cases:" + yht;
   document.getElementById("toka").innerHTML = "Recovered:" + parantuneet;
   document.getElementById("kolmas").innerHTML = "Active:" + aktiiviset;
   document.getElementById("neljas").innerHTML = "Deaths:" + kuolleet;
+
+  var hide = document.getElementById("cr");
+  if (hide.style.display === "none") {
+    hide.style.display = "block";
+  } else {
+    hide.style.display = "none";
+  }
+}
     }
 }
-}
+
 // summary dataa varten funktion määrittely uudesta osoitteesta
 function summaryData() {
   var summary = "https://api.covid19api.com/summary";

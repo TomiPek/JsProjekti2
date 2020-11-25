@@ -3,7 +3,7 @@
   padding-top: 20px;
   background: url("https://cdn.pixabay.com/photo/2020/04/03/19/02/virus-4999857_960_720.png")
     no-repeat center center;
-  min-height: 350px;
+  min-height: 250px;
   max-width: 800px;
   margin: auto;
   background-size: 100% 100%;
@@ -38,8 +38,10 @@ table {
   margin-bottom: 30px;
 }
 .box {
-  width: 35%;
-  height: 200px;
+  margin: auto;
+  align-items: center;
+  width: 33%;
+  height: 180px;
   border: thin black solid;
   display: inline-block;
 }
@@ -56,6 +58,8 @@ button {
   background-image: url("https://icons.iconarchive.com/icons/everaldo/crystal-clear/128/App-virus-detected-2-icon.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 1px;
+  margin-bottom: 1px;
 }
 
 #toka {
@@ -67,6 +71,7 @@ button {
   background-image: url("https://icons.iconarchive.com/icons/hopstarter/button/128/Button-Add-icon.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 1px;
 }
 
 #kolmas {
@@ -78,6 +83,7 @@ button {
   background-image: url("https://icons.iconarchive.com/icons/bad-blood/yolks/128/sick-icon.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 1px;
 }
 
 #neljas {
@@ -89,4 +95,18 @@ button {
   background-image: url("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/128/Tomb-icon.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 1px;
+}
+
+#xp {
+  margin-top: auto;
+}
+
+#ekaNappi {
+  width: 70px;
+  height: 40px;
+}
+#tokaNappi {
+  width: 70px;
+  height: 40px;
 }

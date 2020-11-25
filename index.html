@@ -17,24 +17,22 @@
   </div>
   <h5>Type country name in search field to find country statistics</h5>
   <input id="haku"></input><button id="search" onclick="countrySearch()">Search</button>
-
+  <div id="country"></div>
+  <h5 id="">Current covid-19 situtation in world</h5>
   <div id="wrapper">
     <div id="eka" class="box">
-      <h3>Total</h3>
     </div>
     <div id="toka" class="box">
-      total2
     </div>
     <div id="kolmas" class="box">
-      Active cases
+      <p>Active cases</p>
     </div>
     <div id="neljas" class="box">
-      Total4
     </div>
   </div>
-  <h5>Button 1 shows countries with total cases over 1 million and button 2 all countries list</h5>
-  <button onclick="summaryData()">Million</button>
-  <button onclick="summaryData2()">All countries</button>
+  <h5 id="xp">Button 1 shows countries with total cases over 1 million and button 2 all countries list</h5>
+  <button id="ekaNappi" onclick="summaryData()">Million</button>
+  <button id="tokaNappi" onclick="summaryData2()">All</button>
 
   <div id="xy"></div>
 
